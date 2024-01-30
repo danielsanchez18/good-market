@@ -1,0 +1,82 @@
+.carrito {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/Supermercado.png);
+  background-size: cover; /* Ajusta según tus preferencias */
+  background-repeat: no-repeat;
+}
+p{
+  color: #000000;
+}
+  
+  h2 {
+    color: #EC4724;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin: 20px; /* Esto agrega espacio en los cuatro lados del elemento */
+  }
+  
+
+  .btnMenu {
+    display: none;
+  }
+
+  .btnLogo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .espaciador {
+    flex-grow: 0.2;
+  }
+  
+
+  .listaMenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .listaMenu ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+
+  .listaMenu ul li:last-child {
+    margin-right: 0;
+  }
+
+ 
+
+  .producto img {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+  }
+
+  .producto {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+  #total {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  button {
+    background-color: #4c8cd0;
+    color: #000000;
+    padding: 20px 70px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: cell;
+    margin: 50px;
+  }

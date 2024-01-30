@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good Market</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"  href="css/sytlecarrito.css">
+    <script>
+        function generarCodigoAleatorio() {
+            // Generaar un código aleatorio (puedes personalizar esto según tus necesidades)
+            var codigo = Math.random().toString(36).substring(7); // Código de 7 caracteres
+            
+            // Mostrar el código en un cuadro de diálogo
+            alert("Su código generado es: " + codigo);
+        }
+    </script>
+    
+</head>
+<body>
+    <header class="header">
+        <section class="box">
+            <section class="logo">
+                <a href="index.html"><img src="img/GoogMarket1-logo.png" style="width: 55px; margin-right: 15px;"></a>   
+                <a href="index.html" class="titulo">GoodMarket.</a>
+            </section>
+
+            <section class="list">
+                <a href="index.html">Nosotros</a>
+                <a href="index.html">Ofertas</a>
+                <a href="productosIndex.html">Productos</a>
+                <a href="index.html">Contacto</a>
+                <a href="carrito.html" class="btn-circle" style="margin: 0;"><img src="img/carrito.png" style="height: 25px;"></a>
+            </section>
+
+        </section>
+    </header>
+    <br>
+    <section class="carrito">
+        <h2>PRODUCTOS COMPRADOS</h2>
+        <div class="producto">
+            <img src="img/abarrotes/aceite.png"  alt="Producto 1">
+            <p>Aceite Primor</p>
+            <p>Precio: $10.00</p>
+        </div>
+        <div class="producto">
+            <img src="img/abarrotes/arroz2.png" alt="Producto 2">
+            <p>Arroz Costeño</p>
+            <p>Precio: $15.00</p>
+        </div>
+        <div class="producto">
+            <img src="img/abarrotes/azucar1.png" alt="Producto 3">
+            <p>Azúcar Rubia</p>
+            <p>Precio: $20.00</p>
+        </div>
+        <div class="producto">
+            <img src="img/abarrotes/cafe1.png"Producto 4">
+            <p>Cafe altomayo</p>
+            <p>Precio: $25.00</p>
+        </div>
+        <p id="total">Total: $70.00</p>
+        <button onclick="generarCodigoAleatorio()">OBTENER CODIGO</button>
+        <div class="indicador">
+            
+        </div>
+    </section>
+   
+
+</body>
+</html>
